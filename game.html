@@ -6,26 +6,44 @@
     <title>Truco Contador</title>
     <link rel="shortcut icon" href="assets/img/clubs_card_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/game.css">
-    <script src="assets/js/truco.js" defer></script>
+    <!-- <script src="assets/js/truco.js" defer></script> -->
 </head>
 <body>
     <main>
         <h3 class="phrase"></h3>
         <aside class="left">
             <h2 class="team">Nós</h2>
-            <h1 class="ponints">3</h1>
-            <div class="trophies"></div>
-            <div class="plus">
-                <i class="one">1</i>
-                <i class="three">Truco!</i>
-                <i class="six">Seeeis!</i>
-                <i class="nine">Nooove!</i>
-                <i class="twelve">Doooze!</i>
+            <h1 class="points">12</h1>
+            <div class="trophies">
+                <img src="assets/img/trophy_icon.svg" alt="">
             </div>
-            <div class="less"></div>
+            <div class="trophies_n">= 2</div>
+            <div class="truco">
+                <button class="bt one">+1</button>
+                <button class="bt three">Truco!</button>
+                <button class="bt six">Seeeis!</button>
+                <button class="bt nine">Nooove!</button>
+                <button class="bt twelve">Doooze!</button>
+                <button class="btm minusone">-1</button>
+            </div>
         </aside>
-        <aside class="right"></aside>
+        <aside class="right">
+            <h2 class="team">Eles</h2>
+            <h1 class="points">7</h1>
+            <div class="trophies">
+                <img src="assets/img/trophy_icon.svg" alt="">
+            </div>
+            <div class="trophies_n">= 1</div>
+            <div class="truco">
+                <button class="bt one">+1</button>
+                <button class="bt three">Truco!</button>
+                <button class="bt six">Seeeis!</button>
+                <button class="bt nine">Nooove!</button>
+                <button class="bt twelve">Doooze!</button>
+                <button class="btm minusone">-1</button>
+            </div>
+        </aside>
+        <button class="bt2">RESETAR</button>
     </main>
-    <script src="https://kit.fontawesome.com/2bfb83f134.js" crossorigin="anonymous"></script>
 </body>
 </html>
