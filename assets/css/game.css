@@ -124,14 +124,14 @@
     }
     .points{
       font-family: 'Tilt Neon', sans-serif;
-      font-size: 5.5em;
+      font-size: 4em;
       text-align: center;
       text-transform: uppercase;
       color: #fff;
       margin-top: 0%;
+      margin-bottom: 0;
       width: 45%;
       float: left;
-      clear: right;
     }
     .trophygroup{
       width: 55%;
@@ -141,17 +141,17 @@
       clear: right;
     }
     .trophies{
-      width: 35%;
+      width: 25%;
       height: 5%;
       margin-left: 10%;
-      margin-top: 13%;
+      margin-top: 5%;
       float: left;
     }
     .trophies_n{
       font-family: 'Tilt Neon', sans-serif;
-      font-size: 3em;
+      font-size: 2.5em;
       text-indent: 10%;
-      line-height: 1.1em;
+      line-height: .4em;
       font-weight: bold;
       text-transform: uppercase;
       color: #fff;
