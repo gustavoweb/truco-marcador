@@ -14,10 +14,12 @@
         <aside class="left">
             <h2 class="team">Nós</h2>
             <h1 class="points" id="pn">0</h1>
-            <div class="trophies">
-                <img src="assets/img/trophy_icon.svg" alt="">
+            <div class="trophygroup">
+                <div class="trophies">
+                    <img src="assets/img/trophy_icon.svg" alt="">
+                </div>
+                <div class="trophies_n" id="tn">= 0</div>
             </div>
-            <div class="trophies_n" id="tn">= 0</div>
             <div class="truco">
                 <button class="bt one" onclick="incrementScore('pn', 'tn', 1)">+1</button>
                 <button class="bt three" onclick="incrementScore('pn', 'tn', 3)">Truco!</button>
@@ -30,10 +32,12 @@
         <aside class="right">
             <h2 class="team">Eles</h2>
             <h1 class="points" id="pe">0</h1>
-            <div class="trophies">
-                <img src="assets/img/trophy_icon.svg" alt="">
+            <div class="trophygroup">
+                <div class="trophies">
+                    <img src="assets/img/trophy_icon.svg" alt="">
+                </div>
+                <div class="trophies_n" id="te">= 0</div>
             </div>
-            <div class="trophies_n" id="te">= 0</div>
             <div class="truco">
                 <button class="bt one_e" onclick="incrementScore('pe', 'te', 1)">+1</button>
                 <button class="bt three_e" onclick="incrementScore('pe', 'te', 3)">Truco!</button>

@@ -129,3 +129,70 @@
         -moz-transition: box-shadow 0.2s ease-in;
         transition: box-shadow 0.2s ease-in;
       }
+
+        /* Estilos para celulares deitados (landscape) */
+@media screen and (min-width: 601px) and (max-width: 950px) {
+  .bt{
+    position: relative;
+    width: 45%;
+    padding: 10px 20px;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-radius: 7px;
+    border: 1px solid rgb(61, 106, 255);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  .btm{
+    position: relative;
+    width: 45%;
+    padding: 10px 20px;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-radius: 7px;
+    border: 1px solid rgb(255, 61, 61);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  .bt2{
+    width: 70%;
+    height: 7%;
+    position: absolute;
+    bottom: 2%;
+    left: 15%;
+    background: rgb(255, 61, 61);
+
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid #FFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.3s ease all;
+  }
+}
